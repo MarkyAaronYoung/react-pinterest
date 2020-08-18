@@ -17,5 +17,12 @@ class Auth extends React.Component {
     );
   }
 }
+// { authed ? (
+//   <button className="btn btn-primary" onClick={this.logoutClickEvent}>Log out</button>
+// ) : (
+//   <button className="btn btn-danger" onClick={this.loginClickEvent}>Google Login</button>
+
+// )
+// }
 
 export default Auth;

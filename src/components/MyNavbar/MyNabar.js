@@ -1,18 +1,33 @@
 import React from 'react';
+import PropTypes from 'prop-types';
 import firebase from 'firebase/app';
+import Auth from '../Auth/Auth';
 import 'firebase/auth';
 
 class MyNavbar extends React.Component {
+  static propTypes = {
+    authed: PropTypes.bool.isRequired,
+  }
+
   logoutClickEvent = (e) => {
     e.preventDefault();
     firebase.auth().signOut();
   }
 
   render() {
+    const { authed } = this.props;
+
     return (
-      <div className="MyNavbar">
-        <button className="btn btn-light" onClick={this.logoutClickEvent}>Log out</button>
-      </div>
+      <nav className="navbar navbar-light bg-light">
+        <span className="navbar-brand mb-0 h1">Navbar</span>
+        {
+          authed ? (
+            <button className="btn btn-primary" onClick={this.logoutClickEvent}>Log out</button>
+          ) : (
+           <Auth />
+          )
+        }
+      </nav>
     );
   }
 }
