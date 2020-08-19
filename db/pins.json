@@ -1,0 +1,68 @@
+{
+  "pin1": {
+    "name": "Junk Food Hat",
+    "boardId": "board1",
+    "imgURL": "https://partycity6.scene7.com/is/image/PartyCity/_pdp_sq_?$_1000x1000_$&$product=PartyCity/793997"
+  },
+
+  "pin2": {
+    "name": "Fish Hat",
+    "boardId": "board1",
+    "imgUrl": "https://contestimg.wish.com/api/webimage/5b18f3f85a0cdc78a73d6b7f-large.jpg?cache_buster=f6a5d3e0a769d10b8f030d449a52ff6b"
+  },
+
+  "pin3": {
+    "name": "Taco Hat",
+    "boardId": "board1",
+    "imgURL": "https://partycity.scene7.com/is/image/PartyCity/_sq_?$_500x500_$&$product=PartyCity/740144_full"
+  },
+  
+  "pin4": {
+    "name": "Goats in Party Hats",
+    "boardId": "board1",
+    "imgURL": "https://i.pinimg.com/originals/52/1c/6b/521c6ba95e5be75192265b3822f58586.jpg"
+  },
+
+  "pin5": {
+    "name": "Goats in Party Hats",
+    "boardId": "board2",
+    "imgURL": "https://i.pinimg.com/originals/52/1c/6b/521c6ba95e5be75192265b3822f58586.jpg"
+  },
+
+
+  "pin6": {
+    "name": "Licking Goat",
+    "boardId": "board2",
+    "imgURL": "https://media.nbcconnecticut.com/2019/09/goat-1.jpg?resize=1200%2C675"
+  },
+
+  "pin7": {
+    "name": "Tub Goat",
+    "boardId": "board2",
+    "imgURL": "https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcR6V_ivIECENDsd7FGHLS3RlL1SPf_TKUVphw&usqp=CAU"
+  },
+  
+  "pin8": {
+    "name": "Yellowstone Bison",
+    "boardId": "board3", 
+    "imgURL": "https://www.yellowstonepark.com/.image/t_share/MTQ3MzIwMDY3OTc4OTYyMzgy/bison-ys-mountainssky_adobe_612.jpg"
+  },
+
+  "pin9": {
+    "name": "Elks in Minnesota",
+    "boardId": "board3",
+    "imgURL": "https://www.exploreminnesota.com/sites/default/files/styles/inline_article/public/2019-11/elk-herd-skull-lake.jpg?itok=JkpJJY0i"
+  },
+
+  "pin10": {
+    "name": "Goats in Tennessee",
+    "boardId": "board3",
+    "imgURL": "https://tennesseemeatgoats.com/Resources/whatbr7.jpeg"
+  },
+
+  "pin11": {
+    "name": "Goats in Tennessee",
+    "boardId": "board2",
+    "imgURL": "https://tennesseemeatgoats.com/Resources/whatbr7.jpeg"
+  }
+}
